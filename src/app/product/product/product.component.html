@@ -1,0 +1,17 @@
+<mat-grid-list cols="3" rowHeight="4:3">
+    <mat-grid-tile *ngFor="let product of products" style="margin: 5px;">
+        <mat-grid-tile-header>{{product.category | uppercase}}</mat-grid-tile-header>
+        <div id="container">
+            <div id="image-div">
+                <img src= {{product.image}} alt="Product Image loading...">
+            </div>
+            <div>
+                <p id="image-title">{{product.title}}</p>
+            </div>
+        </div>
+        <mat-grid-tile-footer>
+            Price : {{product.price}} INR
+            <button mat-raised-button color="link" id="view-btn" (click)="viewProduct(product.id)"><b>View Product</b></button>
+        </mat-grid-tile-footer>
+    </mat-grid-tile>
+</mat-grid-list>

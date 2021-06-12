@@ -1,0 +1,43 @@
+
+
+#logo{
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-left: 30px;
+    color: white;
+}
+
+
+#icon{
+    font-size: 35px;
+    height: 100%;
+    width: 100%;
+}
+
+#profile-div{
+    display: inline-block;
+    width: 30%;
+}
+
+#icon-div{
+    display: inline-block;
+    width: 30%;
+    color: white;
+    text-align: center;
+}
+
+#search-div{
+    display: inline-block;
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+#prod-div{
+    display: inline-block;
+    width: 23%;
+    color: white;
+    
+}

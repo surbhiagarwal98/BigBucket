@@ -1,0 +1,15 @@
+#login-form{
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    left: 33%;
+    top: 25%;
+    padding: 40px;
+    background: border-box;
+    box-shadow: 10px 10px 10px 10px lightgrey;
+    background-color: white;
+}
+
+button{
+    margin:5px
+}

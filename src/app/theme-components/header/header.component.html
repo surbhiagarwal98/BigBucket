@@ -1,0 +1,21 @@
+<div id="header" >
+    <div id="profile-div">
+        <button mat-button id="logo" (click)="onIconClick()">Shopiholic</button>
+    </div>
+    
+    <div id="search-div">
+        <app-search></app-search>
+        
+    </div>
+    <div id="icon-div">
+        <button mat-button matTooltip="Login/Profile" id="icon-button" (click)="onProfileClick()" >
+            <mat-icon id="icon" >account_circle</mat-icon>
+        </button>
+        <button mat-button matTooltip="Cart" id="cart-button" (click)=openCart() >
+            <mat-icon id="icon" >shopping_cart</mat-icon>
+        </button>
+        
+    </div>
+
+</div>
+

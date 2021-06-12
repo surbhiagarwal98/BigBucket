@@ -1,0 +1,33 @@
+
+<h1 style="font-weight: 500;text-align: center; color: brown; margin-top: 10px;">Your Cart</h1>
+<div id=container>
+<div id=item-container>
+    <mat-grid-list cols = "2" rowHeight="4:3">
+        <mat-grid-tile *ngFor="let item of cartItems" style="margin : 5px" >
+            <mat-grid-tile-header style="padding:5px; font-weight: 600;text-align: center;">
+                <h3>{{item.product.title}}</h3>
+            </mat-grid-tile-header>
+            
+        <div id="container">
+            <div id="image-div">
+                <img src= {{item.product.image}} alt="Product Image loading..." height="200px" width="200px">
+            </div>
+            
+        </div>
+        <mat-grid-tile-footer style="margin:5px; font-weight: 500; text-align: center;">
+            Price : {{item.qty}} * {{item.product.price}} = {{item.totalPrice}} INR
+        </mat-grid-tile-footer>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+<div id="price-container">
+    <h2>Checkout</h2>
+    <h3 style="color: blueviolet;"> Total Price : {{cartPrice}}</h3>
+    <mat-form-field appearance="outline">
+        <mat-label>Delivery Address</mat-label>
+        <input matInput type="text">
+    </mat-form-field>
+    <button mat-raised-button color="accent" (click)="onOrderClick($event.target.value)">Order Now</button>
+    
+</div>
+</div>

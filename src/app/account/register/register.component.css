@@ -1,0 +1,17 @@
+
+#registration-form{
+    text-align: center;
+    position: fixed;
+    left: 23%;
+    top: 21%;
+    
+    background: border-box;
+    box-shadow: 10px 10px 10px 10px darkgrey;
+    padding: 40px;
+    background-color: white;
+    
+}
+
+.table-data{
+    padding:5px;
+}

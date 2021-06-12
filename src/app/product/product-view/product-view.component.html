@@ -1,0 +1,26 @@
+<h1 style="margin: 20px; text-align: center; color: black; font-weight: 500;">Product Description</h1>
+
+<div id = "product-container">
+    <mat-card id="product-desc">
+        <mat-card-header style="color: DarkSlateGray;">
+            <mat-card-title>{{product.title}}</mat-card-title>
+            <mat-card-subtitle>{{product.category | uppercase}}</mat-card-subtitle>
+        </mat-card-header>
+        <img src="{{product.image}}" alt="product image loading..." id="product-desc-image">
+        <h3 style=" color: DarkSlateGray ; font-weight: 500; text-align: right; padding: 10px;">{{product.price}} INR</h3>
+        <div id="details">
+            <p style="color: DarkSlateGray; text-align: left;">{{product.description}}</p>
+        </div>
+    </mat-card>
+    <div id="right-container">
+        <h3>Want to buy this product? Choose quantity 😀</h3>
+        <mat-form-field appearance="outline">
+            <mat-label>Quantity</mat-label>
+            <input matInput type="number" min="1" (keyup) = setQty($event.target.value) (click) = setQty($event.target.value)>
+        </mat-form-field>
+        <input matInput value="Total Price : {{totalPrice}} INR" style="font-weight: 500; color: tomato; margin:3px;" disabled>
+        <button mat-raised-button color="accent" (click)=addToCart()>Add To Cart</button>
+
+    </div>
+    
+</div>
