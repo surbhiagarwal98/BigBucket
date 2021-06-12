@@ -4,18 +4,21 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## About
 
-## Functionality :- To place order by adding items to cart 
+### Functionality  
+To place order by adding items to cart 
 
-## Tools & Technologies :- Visual Studio Code, Angular 11, Typescript, REST APIs( fakestoreapi.com )
+### Tools & Technologies 
+Visual Studio Code, Angular 11, Typescript, REST APIs( fakestoreapi.com )
 
-## Angular Features used :- 
+### Angular Features used 
 1.	Angular Material UI
 2.	OAuth2-oidc authentication
 3.	Lazy Loading
 
-## Deployment :- Netlify, Github
+### Deployment 
+Netlify, Github
 
-## Pages :- 
+### Pages 
 1.	Login : oauth2-oidc authentication method implemented
 2.	Forgot-Password 
 3.	Register
@@ -23,15 +26,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 5.	Product-view(Product Description) : displays selected product and quantity
 6.	Cart : displays cart, checkout option and order option
 
-## Services :- 
+### Services  
 1.	Login-service
 2.	Product-service
 3.	Cart-service
 
-## Files :- 
+### Files 
 1.	sso.config.ts
 
-## FAKE API :- fakestoreapi.com for Products
+### FAKE API 
+fakestoreapi.com for Products
 
 
 ## Development server
