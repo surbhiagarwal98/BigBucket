@@ -10,10 +10,11 @@ To place order by adding items to cart
 ### Tools & Technologies 
 Visual Studio Code, Angular 11, Typescript, REST APIs( fakestoreapi.com )
 
-### Angular Features used 
+### Features 
 1.	Angular Material UI
 2.	OAuth2-oidc authentication
 3.	Lazy Loading
+4.	Module structure
 
 ### Deployment 
 Netlify, Github
